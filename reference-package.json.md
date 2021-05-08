@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack serve",
+     "dev": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,7 +27,6 @@
     "css-loader": "^5.2.4",
     "postcss-import": "^14.0.1",
     "postcss-loader": "^5.2.0",
-    "postcss-mixins": "^7.0.3",
     "postcss-nested": "^5.0.5",
     "postcss-simple-vars": "^6.0.3",
     "style-loader": "^2.0.0",
@@ -36,3 +35,7 @@
     "webpack-dev-server": "^3.11.2"
   }
 }
+
+### Obtener IP local
+hostname -I
+hostname -i

@@ -1,0 +1,4 @@
+{
+  "name": "Git a Web Developer Job Course"
+, "files": [ { "directory": "app", "filters": ["*.html", "*.css","*.js"], "recursive": 1 } ]
+}  
