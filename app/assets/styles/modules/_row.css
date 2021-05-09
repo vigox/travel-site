@@ -5,6 +5,9 @@
     }
     
     @mixin atMedium {
+        
+        display: flex;
+        
         .row--b-margin-until-medium {
             margin-bottom: 0;
         }
@@ -13,11 +16,17 @@
             padding-right: 65px;
         }
         
-        &--gutters div:last-child{
-            padding-right: 0;
+        &--gutters-last-null div:last-child{
+            padding-right: 0; 
+        }
+        
+        &--gutters-large {
             
         }
-        display: flex;
+        
+        &--gutters-large > div {
+            padding-right: 100px;
+        }
         
         &--medium-4 {
             width: 33.33%;
@@ -25,6 +34,10 @@
         
          &--medium-4--larger {
              width: 37%;
+        }
+        
+        &--medium-6 {
+            width: 50%;
         }
         
         &--medium-8 {
